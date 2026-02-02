@@ -313,6 +313,90 @@ body {
     border-top: 1px solid rgba(0, 212, 255, 0.1);
 }
 
+/* =========================
+   📱 MOBILE RESPONSIVE FIX
+   ========================= */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 14px 16px;
+        height: auto;
+    }
+
+    .menu {
+        gap: 20px;
+        font-size: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Hero section */
+    .hero {
+        padding: 32px 16px;
+    }
+
+    .hero-inner {
+        grid-template-columns: 1fr;   /* ONE COLUMN */
+        text-align: center;
+    }
+
+    .hero-left {
+        margin-bottom: 24px;
+    }
+
+    .hello {
+        font-size: 18px;
+    }
+
+    .hero-title,
+    .hero-title-name {
+        font-size: 36px;
+    }
+
+    .hero-title-big {
+        font-size: 42px;
+    }
+
+    .hero-sub {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .hero-ctas {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* Hero image */
+    .hero-right {
+        height: auto;
+        margin-top: 32px;
+    }
+
+    .blob {
+        width: 260px;
+        height: 260px;
+        right: 50%;
+        transform: translate(50%, 0);
+    }
+
+    .hero-image {
+        width: 200px;
+        transform: none;
+    }
+
+    /* Footer */
+    .social-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .social-link {
+        width: 42px;
+        height: 42px;
+    }
+}
 
 
 
